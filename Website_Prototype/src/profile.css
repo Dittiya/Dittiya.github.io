@@ -1,0 +1,154 @@
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(100, 66, 114);
+}
+
+body {
+    height: 100%;
+    padding-top: 6%;
+    margin-top: 5%;
+}
+
+/* profile header section */
+.seller
+{
+    margin-left: 10%;
+    background-size: cover;
+    column-count: 4;
+}
+#seller_cover
+{
+    width: 100%;
+    margin-bottom: -7%;
+}
+h1
+{
+    padding-top: 40%;
+}
+/* items section */
+table img {
+    width: 150px;
+    height: 100px;
+}
+table,th,td {
+    border: 1px solid #333;
+    border-spacing: 10px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.logo img{
+    width: 5%;
+}
+
+/* header section */
+.header-fixed {
+    background-color: #fff1bc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 10px;
+    z-index: 999;
+}
+
+#loginAnchor {
+    text-align: center;
+    position: relative;
+    background-color: #52de97;
+    padding: 1px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#signupAnchor {
+    text-align: center;
+    position: relative;
+    background-color: #52de97;
+    padding: 1px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* search bar section */
+.search-bar {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.search-term {
+    width: 100%;
+    border: 3px solid turquoise;
+    padding: 5px;
+    height: 21px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: gray;
+}
+
+.search-term:focus {
+    color: black;
+}
+
+.search-button {
+    width: 40px;
+    height: 36px;
+    border: 1px solid turquoise;
+    background: turquoise;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-wrapper {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* registration section for both log in and sign up */
+.regist-wrapper {
+    float: right;
+    margin-left: 1%;
+    background-color: black;
+    color: white;
+}
+
+.item-container {
+    float: right;
+    width: 75%;
+}
+
+.item-category {
+    width: 25%;
+    float: left;
+}
+
+.item-category a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.item-category a:hover {
+    background-color: #ccc;
+}
+
+.item-category a#active {
+    background-color: teal;
+    color: white;
+}
